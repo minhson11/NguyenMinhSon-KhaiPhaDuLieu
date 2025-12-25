@@ -1,29 +1,30 @@
-# 👋 Xin chào, tôi là Minh Sơn Nguyễn
+# 🔐 Secure File Transfer System
 
-🎓 Sinh viên / Lập trình viên đam mê Công nghệ & Bảo mật  
-💻 Quan tâm đến: Web, Mobile, Network, Cryptography  
-🔐 Hướng nghiên cứu: AES, RSA, SHA, Secure File Transfer
-
----
-
-## 🚀 Kỹ năng
-- 💡 Ngôn ngữ: C++, Python, Java, JavaScript
-- 🌐 Web: HTML, CSS, JS, Flask
-- 🔐 Bảo mật: AES, RSA, SHA-256
-- 🗄️ Database: MySQL
-- ⚙️ Công cụ: Git, GitHub, Postman, Docker (cơ bản)
+## 📖 Giới thiệu
+Secure File Transfer System là ứng dụng truyền file an toàn qua mạng,
+sử dụng thuật toán mã hóa **AES** và kiểm tra toàn vẹn dữ liệu bằng **SHA-256**.
+Hệ thống cho phép người dùng upload, download file một cách bảo mật.
 
 ---
 
-## 📌 Dự án tiêu biểu
-- 🔐 **Ứng dụng mã hóa & giải mã file (AES)**
-- 🌐 **Truyền file an toàn P2P có kiểm tra toàn vẹn SHA-256**
-- 📱 **Ứng dụng Mobile quản lý bán hàng**
+## ⚙️ Công nghệ sử dụng
+- 🔐 Mã hóa: AES
+- 🧪 Hash: SHA-256
+- 🐍 Backend: Python (Socket / Flask)
+- 🌐 Frontend: HTML, CSS, JavaScript
 
 ---
 
-## 📫 Liên hệ
-- 📧 Email: your_email@gmail.com
-- 🌍 GitHub: https://github.com/your_username
+## ✨ Tính năng
+- 🔒 Mã hóa file trước khi truyền
+- 📤 Upload / 📥 Download file
+- ✅ Kiểm tra toàn vẹn dữ liệu
+- 👥 Truyền file giữa 2 người dùng
 
-✨ *Cảm ơn bạn đã ghé thăm GitHub của tôi!*
+---
+
+## 🛠️ Cài đặt
+```bash
+git clone https://github.com/your_username/your_repo.git
+cd your_repo
+python server.py
